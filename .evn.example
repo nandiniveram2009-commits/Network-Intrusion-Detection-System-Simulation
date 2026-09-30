@@ -1,0 +1,17 @@
+
+FLASK_APP=backend/app.py
+FLASK_ENV=development
+PORT=5000
+HOST=127.0.0.1
+DEBUG=True
+
+# Database Configuration
+DATABASE_PATH=data/ids_security.db
+
+# Machine Learning Model Configuration
+MODEL_PATH=models/random_forest_ids.pkl
+ENABLE_ML_DETECTION=True
+
+# Simulator Configuration
+SIMULATOR_SPEED=slow
+SIMULATOR_MODE=mixed
